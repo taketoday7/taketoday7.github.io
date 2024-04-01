@@ -20,7 +20,6 @@
 * []()：
 * []()：
 * []()：
-* []()：
 * [](https://github.com/bitterfox/json-string-template)：
 * [TemplatedJDBC](https://github.com/hjohn/TemplatedJDBC)：JDBC的零依赖轻量级包装器，使用字符串模板和记录。
 * [JDBC](https://github.com/bowbahdoe/jdbc)：用于使用原始JDBC API的实用程序。
