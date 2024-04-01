@@ -1,0 +1,269 @@
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .cm {
+  font-family: "Jetbrains Mono";
+  color: #999988;
+  font-style: italic;
+}
+.highlight .cp {
+  font-family: "Jetbrains Mono";
+  color: #999999;
+  font-weight: bold;
+}
+.highlight .c1 {
+  font-family: "Jetbrains Mono";
+  color: #999988;
+  font-style: italic;
+}
+.highlight .cs {
+  font-family: "Jetbrains Mono";
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight .c, .highlight .cd {
+  font-family: "Jetbrains Mono";
+  color: #999988;
+  font-style: italic;
+}
+.highlight .err {
+  font-family: "Jetbrains Mono";
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+.highlight .gd {
+  font-family: "Jetbrains Mono";
+  color: #000000;
+  background-color: #ffdddd;
+}
+.highlight .ge {
+  font-family: "Jetbrains Mono";
+  color: #000000;
+  font-style: italic;
+}
+.highlight .gr {
+  font-family: "Jetbrains Mono";
+  color: #aa0000;
+}
+.highlight .gh {
+  font-family: "Jetbrains Mono";
+  color: #999999;
+}
+.highlight .gi {
+  font-family: "Jetbrains Mono";
+  color: #000000;
+  background-color: #ddffdd;
+}
+.highlight .go {
+  font-family: "Jetbrains Mono";
+  color: #888888;
+}
+.highlight .gp {
+  font-family: "Jetbrains Mono";
+  color: #555555;
+}
+.highlight .gs {
+  font-family: "Jetbrains Mono";
+  font-weight: bold;
+}
+.highlight .gu {
+  font-family: "Jetbrains Mono";
+  color: #aaaaaa;
+}
+.highlight .gt {
+  font-family: "Jetbrains Mono";
+  color: #aa0000;
+}
+.highlight .kc {
+  font-family: "Jetbrains Mono";
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kd {
+  font-family: "Jetbrains Mono";
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kn {
+  font-family: "Jetbrains Mono";
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kp {
+  font-family: "Jetbrains Mono";
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kr {
+  font-family: "Jetbrains Mono";
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .kt {
+  font-family: "Jetbrains Mono";
+  color: #445588;
+  font-weight: bold;
+}
+.highlight .k, .highlight .kv {
+  font-family: "Jetbrains Mono";
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .mf {
+  font-family: "Jetbrains Mono";
+  color: #009999;
+}
+.highlight .mh {
+  font-family: "Jetbrains Mono";
+  color: #009999;
+}
+.highlight .il {
+  font-family: "Jetbrains Mono";
+  color: #009999;
+}
+.highlight .mi {
+  font-family: "Jetbrains Mono";
+  color: #009999;
+}
+.highlight .mo {
+  font-family: "Jetbrains Mono";
+  color: #009999;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  font-family: "Jetbrains Mono";
+  color: #009999;
+}
+.highlight .sb {
+  font-family: "Jetbrains Mono";
+  color: #d14;
+}
+.highlight .sc {
+  font-family: "Jetbrains Mono";
+  color: #d14;
+}
+.highlight .sd {
+  font-family: "Jetbrains Mono";
+  color: #d14;
+}
+.highlight .s2 {
+  font-family: "Jetbrains Mono";
+  color: #d14;
+}
+.highlight .se {
+  font-family: "Jetbrains Mono";
+  color: #d14;
+}
+.highlight .sh {
+  font-family: "Jetbrains Mono";
+  color: #d14;
+}
+.highlight .si {
+  font-family: "Jetbrains Mono";
+  color: #d14;
+}
+.highlight .sx {
+  font-family: "Jetbrains Mono";
+  color: #d14;
+}
+.highlight .sr {
+  font-family: "Jetbrains Mono";
+  color: #009926;
+}
+.highlight .s1 {
+  font-family: "Jetbrains Mono";
+  color: #d14;
+}
+.highlight .ss {
+  font-family: "Jetbrains Mono";
+  color: #990073;
+}
+.highlight .s {
+  font-family: "Jetbrains Mono";
+  color: #d14;
+}
+.highlight .na {
+  font-family: "Jetbrains Mono";
+  color: #008080;
+}
+.highlight .bp {
+  font-family: "Jetbrains Mono";
+  color: #999999;
+}
+.highlight .nb {
+  font-family: "Jetbrains Mono";
+  color: #0086B3;
+}
+.highlight .nc {
+  font-family: "Jetbrains Mono";
+  color: #445588;
+  font-weight: bold;
+}
+.highlight .no {
+  font-family: "Jetbrains Mono";
+  color: #008080;
+}
+.highlight .nd {
+  font-family: "Jetbrains Mono";
+  color: #3c5d5d;
+  font-weight: bold;
+}
+.highlight .ni {
+  font-family: "Jetbrains Mono";
+  color: #800080;
+}
+.highlight .ne {
+  font-family: "Jetbrains Mono";
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nf {
+  font-family: "Jetbrains Mono";
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nl {
+  font-family: "Jetbrains Mono";
+  color: #990000;
+  font-weight: bold;
+}
+.highlight .nn {
+  font-family: "Jetbrains Mono";
+  color: #555555;
+}
+.highlight .nt {
+  font-family: "Jetbrains Mono";
+  color: #000080;
+}
+.highlight .vc {
+  font-family: "Jetbrains Mono";
+  color: #008080;
+}
+.highlight .vg {
+  font-family: "Jetbrains Mono";
+  color: #008080;
+}
+.highlight .vi {
+  font-family: "Jetbrains Mono";
+  color: #008080;
+}
+.highlight .nv {
+  font-family: "Jetbrains Mono";
+  color: #008080;
+}
+.highlight .ow {
+  font-family: "Jetbrains Mono";
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .o {
+  font-family: "Jetbrains Mono";
+  color: #000000;
+  font-weight: bold;
+}
+.highlight .w {
+  font-family: "Jetbrains Mono";
+  color: #bbbbbb;
+}
+.highlight {
+  background-color: #f8f8f8;
+}

@@ -1,0 +1,414 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title:  代码是我心中的一首诗
+subtitle: 写写Java，分享技术
+name: Taketoday
+email: tuyucheng2000@163.com
+description: 本站是Taketoday的技术分享博客。内容涵盖Java核心技术、Java测试工具、Spring生态、微服务、响应式编程、设计模式、Gradle、Maven、GraphQL等相关的研究与知识分享。
+keywords: Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,开发者,编程,代码,开源,Developer,Programmer,Coder,IT技术博客,Java,
+encoding: "utf-8"
+favicon: favicon.ico 
+
+repository: taketoday7/taketoday7.github.io
+github_url: https://github.com/taketoday7
+url: http://taketoday7.github.io
+enforce_ssl: ityouknow.com
+
+## Gem
+plugins:
+  - jekyll-paginate
+  - jekyll-geo-pattern
+  - rouge
+  - kramdown
+  - jekyll-github-metadata
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+source:      .
+destination: ./_site
+
+quiet:    false
+defaults: []
+
+kramdown:
+  input: GFM
+  enable_coderay: true
+  syntax_highlighter: rouge
+
+syntax_highlighter_opts:
+   coderay_line_numbers:  nil
+
+# Pagination
+paginate: 12
+paginate_path: 'page:num'
+
+# Navigation. top menu list
+menus:
+
+  -
+    href: http://itmooc.tech/
+    label: IDEA破解
+    target: _blank  
+  -
+    href: /link.html
+    label: 友链
+    target: _self
+
+  -
+    href: /about.html
+    label: 关于
+    target: _self
+
+  - href: /javalibs.html
+    label: Java生态
+    target: _self
+
+# Navigation. main menu list
+navs:
+
+  -
+    href: /
+    label: Home
+
+  -
+    href: /java.html
+    label: Java
+    target: _self
+    subnav:
+
+      -
+        subHref: /java-lang.html
+        subLabel: Java核心语法
+        
+      -
+        subHref: /java-string.html
+        subLabel: Java字符串
+
+      -
+        subHref: /java-ex.html
+        subLabel: Java异常
+
+      -
+        subHref: /java-new.html
+        subLabel: Java 8-22
+        
+      -
+        subHref: /java-array.html
+        subLabel: Java数组
+
+      -
+        subHref: /java-collection.html
+        subLabel: Java集合
+        
+      -
+        subHref: /java-reflect.html
+        subLabel: Java反射
+
+      -
+        subHref: /java-date.html
+        subLabel: Java日期
+
+      -
+        subHref: /java-concurrency.html
+        subLabel: Java并发
+        
+      -
+        subHref: /java-stream.html
+        subLabel: Java Stream
+
+      -
+        subHref: /java-io.html
+        subLabel: Java IO
+        
+      -
+        subHref: /java-nio.html
+        subLabel: Java NIO
+
+      -
+        subHref: /java-jvm.html
+        subLabel: JVM
+
+      -
+        subHref: /java-net.html
+        subLabel: Java网络编程
+        
+      -
+        subHref: /java-security.html
+        subLabel: Java密码学
+
+      -
+        subHref: /java-regex.html
+        subLabel: Java正则表达式
+
+  -
+    href: /kotlin.html
+    label: Kotlin
+    target: _self
+    subnav:
+
+      -
+        subHref: /kotlincore.html
+        subLabel: Kotlin核心
+
+      -
+        subHref: /kotlinlib.html
+        subLabel: Kotlin库
+      
+      -
+        subHref: /kotlintest.html
+        subLabel: Kotlin测试库
+
+      -
+        subHref: /kotlinspring.html
+        subLabel: Kotlin Spring
+
+  -
+    href: /spring.html
+    label: Spring生态
+    target: _self
+    subnav:
+
+      -
+        subHref: /spring.html
+        subLabel: Spring
+
+      -
+        subHref: /spring-web.html
+        subLabel: Spring Web
+      
+      -
+        subHref: /spring-boot.html
+        subLabel: Spring Boot
+
+      -
+        subHref: /spring-data.html
+        subLabel: Spring Data
+
+      -
+        subHref: /spring-security.html
+        subLabel: Spring Security
+
+      -
+        subHref: /spring-cloud.html
+        subLabel: Spring Cloud
+
+      -
+        subHref: /spring-reactive.html
+        subLabel: Spring Reactive
+
+  -
+    href: /ecosystem.html
+    label: Java生态
+    target: _self
+    subnav:
+
+      -
+        subHref: /microservice.html
+        subLabel: 微服务
+
+      -
+        subHref: /designpattern.html
+        subLabel: 设计模式
+      
+      -
+        subHref: /maven.html
+        subLabel: Maven
+
+      -
+        subHref: /gradle.html
+        subLabel: Gradle
+
+      -
+        subHref: /graphql.html
+        subLabel: GraphQL
+
+      -
+        subHref: /grpc.html
+        subLabel: gRPC
+
+      -
+        subHref: /messaging.html
+        subLabel: 消息中间件
+  
+  -
+    href: /test.html
+    label: 测试
+    target: _self
+    subnav:
+
+      -
+        subHref: /unittest.html
+        subLabel: 单元测试
+
+      -
+        subHref: /assertion.html
+        subLabel: 断言库
+      
+      -
+        subHref: /mock.html
+        subLabel: Mock库
+
+      -
+        subHref: /bdd.html
+        subLabel: BDD
+
+      -
+        subHref: /selenium.html
+        subLabel: Selenium
+
+      -
+        subHref: /load.html
+        subLabel: 负载测试
+
+      -
+        subHref: /spring-test.html
+        subLabel: Spring测试
+
+      -
+        subHref: /test-lib.html
+        subLabel: Java测试库
+
+  -
+    href: /reactive.html
+    label: 响应式
+    target: _self
+    subnav:
+
+      -
+        subHref: /reactor.html
+        subLabel: Reactor
+
+      -
+        subHref: /rsocket.html
+        subLabel: RSocket
+      
+      -
+        subHref: /rxjava.html
+        subLabel: RxJava
+
+      -
+        subHref: /vertx.html
+        subLabel: Vert.X
+
+      -
+        subHref: /akka.html
+        subLabel: Akka
+
+  -
+    href: /archives.html
+    label: Archives
+    target: _self
+
+
+
+# labels. my blog key words
+labels:
+
+  -
+    href: /mongodb.html
+    label: MongoDB
+    target: _blank
+
+  -
+    href: /docker.html
+    label: Docker
+    target: _blank
+
+  -
+    href: /open-source.html
+    label: Code  
+    target: _blank
+
+  -
+    href: /gitchat.html
+    label: Chat
+    target: _blank
+
+  -
+    href: /interview.html
+    label: 面试题
+    target: _blank
+
+  -
+    href: /java-jeps.html
+    label: JEP
+    target: _blank
+
+# selected articles
+classes:
+
+  -
+    href: /cartoon.html
+    name: 不会笑青年
+    describe: 内心沉稳 ，放荡不羁。
+
+  -
+    href: /life.html
+    name: 我的故事
+    describe: 生活就是故事，故事就是生活
+
+  -
+    href: /it.html
+    name: IT行业深度报道
+    describe: IT大佬，互联网知名公司的故事
+
+
+
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# Sidebar to show popular repo
+side_bar_repo_limit: 6 # Number of repos to show
+
+# Google Analytics
+# analytics :
+# provider : google
+#   google :
+#     tracking_id : ''  # ex. UA-72165600-X
+
+
+# For about.html. Fell free to create your own!
+skill_software_keywords: [Java, MySQL, Oracle, Design Patterns]
+skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, NodeJS, ExpressJS, MongoDB, Redis, PHP,  Boostrap]
+skill_mobile_app_keywords: [vuejs, hyhird app]
+
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+    username: taketoday7
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: taketoday7
+    repo: blog-comments
+    oauth:
+        client_id: b5981caa1bd346619214
+        client_secret: 04549c149e3e6f9dbcb3563d3605eca1e08be343
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: taketoday7
+    repo: blog-comments
+    clientID: b5981caa1bd346619214
+    clientSecret: 04549c149e3e6f9dbcb3563d3605eca1e08be343
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : true
