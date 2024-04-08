@@ -1,0 +1,32 @@
+/* start custom scss snippet */
+
+/* jetbrains-mono-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/jetbrains-mono-v18-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* jetbrains-mono-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/jetbrains-mono-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  /* 更改正文字体 */
+  font-family: 'JetBrains Mono', Times, Menlo, Monaco, Consolas, Andale Mono, lucida console, Courier New, monospace;
+  font-size: 1.2rem;
+}
+
+code {
+  /* 更改code字体 */
+  font-family: 'JetBrains Mono', Times, Menlo, Monaco, Consolas, Andale Mono, lucida console, Courier New, monospace;
+  font-size: 1.05rem;
+}
+
+/* end custom scss snippet */
